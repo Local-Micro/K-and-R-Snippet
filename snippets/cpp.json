@@ -1,41 +1,41 @@
 {
-  "#inc": {
+  "#include": {
     "prefix": "#inc",
     "body": ["#include "],
     "description": "snippet for #include"
   },
 
-  "using": {
+  "using namespace": {
     "prefix": "usi",
     "body": ["using namespace $0"],
     "description": "snippet for using namespace"
   },
 
-  "for": {
+  "for 循环": {
     "prefix": "for",
     "body": ["for (int ${1} = ${2:0}; ${1} < ${3:length}; ${1}++) {", "\t$0", "}\n"],
     "description": "snippet for a for loop"
   },
 
-  "foreach": {
+  "foreach 循环": {
     "prefix": "fore",
     "body": ["for (auto &$1 : $2) {", "\t$0", "}\n"],
     "description": "snippet for a for-auto loop"
   },
 
-  "do": {
+  "do...while 循环": {
     "prefix": "do",
     "body": ["do {", "\t$0", "} while($1);\n"],
     "description": "snippet for a do...while loop"
   },
 
-  "while": {
+  "while 循环": {
     "prefix": "whi",
     "body": ["while ($1) {", "\t$0", "}\n"],
     "description": "snippet for a while loop"
   },
 
-  "if": {
+  "if 语句": {
     "prefix": "if",
     "body": ["if ($1) {", "\t$0", "}"],
     "description": "snippet for an if statement"
@@ -53,19 +53,19 @@
     "description": "snippet for else-if"
   },
 
-  "enum": {
+  "enum 声明": {
     "prefix": "enu",
     "body": ["enum $1 {", "\t$0", "};\n"],
     "description": "snippet for an enum declaration"
   },
 
-  "class": {
+  "class 声明": {
     "prefix": "cla",
     "body": ["class $0 {", "", "};\n"],
     "description": "snippet for a class declaration"
   },
 
-  "class inherit": {
+  "class 继承": {
     "prefix": "classi",
     "body": ["class $1 :public $0 {", "", "};\n"],
     "description": "snippet for a class-inherit declaration"
@@ -93,13 +93,13 @@
     "description": "snippet for #if"
   },
 
-  "struct": {
+  "struct 声明": {
     "prefix": "stru",
     "body": ["struct $1 {", "\t$0", "};\n"],
     "description": "snippet for a struct declaration"
   },
 
-  "switch": {
+  "switch 语句": {
     "prefix": "swi",
     "body": [
       "switch ($1) {",
@@ -121,25 +121,25 @@
     "description": "snippet for case (...)"
   },
 
-  "try": {
+  "try 代码块": {
     "prefix": "try",
     "body": ["try {", "\t$1", "}", "catch (const std::exception& $2) {", "\t$0", "}\n"],
     "description": "snippet for a try-catch block"
   },
 
-  "union": {
+  "union 声明": {
     "prefix": "uni",
     "body": ["union $1 {", "\t$0", "};\n"],
     "description": "snippet for a union declaration"
   },
 
-  "#def": {
+  "#define": {
     "prefix": "#def",
     "body": ["#define  $1  $2\n"],
     "description": "snippet for #def"
   },
 
-  "main": {
+  "main 函数声明": {
     "prefix": "mai",
     "body": [
       "int\tmain(int argc, char **argv) {",
@@ -153,8 +153,8 @@
     "description": "snippet for a main function declaration"
   },
 
-  "fileheader": {
-    "prefix": "fileheader",
+  "文件头": {
+    "prefix": "fh",
     "body": [
       "/**",
       "**********************************************************************************************************************************************************************************************************************************",
