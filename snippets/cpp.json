@@ -142,7 +142,7 @@
   "main 函数声明": {
     "prefix": "mai",
     "body": [
-      "int\tmain(int argc, char const *argv[]) {",
+      "int main(int argc, char const *argv[]) {",
       "\t$0",
       "",
       "\treturn 0;",
