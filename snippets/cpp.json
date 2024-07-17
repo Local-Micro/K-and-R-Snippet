@@ -66,7 +66,7 @@
   },
 
   "class 继承": {
-    "prefix": "classi",
+    "prefix": "cli",
     "body": ["class $1 :public $0 {", "", "};"],
     "description": "snippet for a class-inherit declaration"
   },
