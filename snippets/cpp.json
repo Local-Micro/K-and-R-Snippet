@@ -61,7 +61,14 @@
 
   "class 声明": {
     "prefix": "cla",
-    "body": ["class $0 {", "", "};"],
+    "body": ["class ${1:/* example */} {",
+      "\tpublic:",
+      "\t\t$1(${2:/* args */});",
+      "",
+      "\tprivate:",
+      "\t\t$0",
+      "};"
+    ],
     "description": "snippet for a class declaration"
   },
 

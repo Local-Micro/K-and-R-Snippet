@@ -71,8 +71,12 @@ enum  {
 };
 
 // cla
-class  {
+class /* example */ {
+    public:
+        /* example */(/* args */);
 
+    private:
+        
 };
 
 // cli
