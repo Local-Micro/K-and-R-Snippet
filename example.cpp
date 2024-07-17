@@ -75,7 +75,7 @@ class  {
 
 };
 
-// classi
+// cli
 class  :public  {
 
 };
