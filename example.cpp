@@ -21,7 +21,10 @@
 #include
 
 // usi
-using namespace
+using 
+
+// usn
+using namespace 
 
 // mai
 int main(int argc, char const *argv[]) {

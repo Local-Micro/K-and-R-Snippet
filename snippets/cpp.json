@@ -5,8 +5,14 @@
     "description": "snippet for #include"
   },
 
-  "using namespace": {
+  "using": {
     "prefix": "usi",
+    "body": ["using $0"],
+    "description": "snippet for using"
+  },
+
+  "using namespace": {
+    "prefix": "usn",
     "body": ["using namespace $0"],
     "description": "snippet for using namespace"
   },
@@ -74,7 +80,7 @@
 
   "class 继承": {
     "prefix": "cli",
-    "body": ["class $1 :public $0 {", "", "};"],
+    "body": ["class $1 : public $0 {", "", "};"],
     "description": "snippet for a class-inherit declaration"
   },
 
